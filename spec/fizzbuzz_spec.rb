@@ -10,4 +10,7 @@ describe 'fizzbuzz' do
   it 'We return Fizzbuzz when our number divided by 5 and by 3 without remain' do
     expect(fizzbuzz(15)).to eq 'Fizzbuzz'
   end
+  it 'We expect 1 equals to 1' do
+    expect(fizzbuzz(1)).to eq 1
+  end
 end
