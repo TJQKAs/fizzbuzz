@@ -1,11 +1,15 @@
-def fizzbuzz(number)
+def fizzbuzz(num)
+  1.upto(num) do |number|
   if number%3 == 0 && number%5 == 0
-    return "Fizzbuzz"
+  puts "Fizzbuzz"
   elsif number%3 == 0
-    return "Fizz"
+  puts "Fizz"
   elsif number%5 == 0
-    return "Buzz"
+  puts "Buzz"
   else
-    number
+  puts number
   end
 end
+end
+
+fizzbuzz(10000)
